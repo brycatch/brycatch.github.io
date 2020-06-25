@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./assets/font-awesome/css/all.min.css">
+  <link rel="shortcut icon" href="./assets/img/icon.png" type="image/png">
+  <title>💻 @brycatch - developer</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <i class="icon-nav fas fa-bars" onclick="toggleHeader()"></i>
+    <nav class="header-nav" id="header-nav">
+      <ul>
+        <li>
+          <a onclick="toggleHeader()" href="#welcome" id="nav-welcome">Bienvenido</a>
+        </li>
+        <li>
+          <a onclick="toggleHeader()" href="#about-me" id="nav-about-me">Sobre mi</a>
+        </li>
+        <li>
+          <a onclick="toggleHeader()" href="#services" id="nav-services">Pichico</a>
+        </li>
+        <li>
+          <a onclick="toggleHeader()" href="#resume" id="nav-resume">Currículum</a>
+        </li>
+        <li>
+          <a onclick="toggleHeader()" href="#skills" id="nav-skills">Habilidades</a>
+        </li>
+        <li>
+          <a onclick="toggleHeader()" href="#portfolio" id="nav-portfolio">Proyectos</a>
+        </li>
+        <li>
+          <a onclick="toggleHeader()" href="#contact" id="nav-contact">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="welcome" id="welcome">
+      <div class="welcome-title">
+        <h2>¡Hola! Soy</h2>
+        <h1>Alejandro Sánchez</h1>
+        <h3>Desarrollador frontend / backend.</h3>
+        <p>@brycatch</p>
+      </div>
+      <div class="welcome-icons">
+        <a href="https://www.pichico.mx" target="_blank">
+          <i class="fas fa-globe-americas"></i>
+        </a>
+        <a href="https://www.github.com/brycatch" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/brycatch/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.facebook.com/pichicomx" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com/brycatch" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/brycatch" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+    <section class="about-me" id="about-me">
+      <div class="about-me-title">
+        <p>Un poco</p>
+        <h2>Sobre mi</h2>
+      </div>
+      <div class="about-me-content">
+        <div class="about-me-photo">
+          <img src="./assets/img/pp.jpg" alt="Foto de Alejandro Sánchez">
+        </div>
+        <div class="about-me-info">
+          <h3>¿Quien soy?</h3>
+          <h4>Soy Alejandro Sánchez, desarrollador frontend / backend y un poco de DevOps</h4>
+          <p class="about-me-intro">
+            Soy un desarrollador de software orientado a lenguajes como C# y JavaScript (NodeJs) con 4 años de experiencia.
+            Tengo conocimiento en areas de implementación de proyectos, servidores en la nube y bases de datos. Me gusta utilizar Angular como tecnología frontend.
+          </p>
+          <hr>
+          <div class="about-me-cv">
+            <div class="about-me-cv-button">
+              <a href="https://drive.google.com/file/d/1QiILll4O_x1bv34VCfZ-yL2l07I8No3_/view?usp=sharing" target="_blank">
+                Descargar CV
+              </a>
+            </div>
+            <div class="separator">
+              <hr>
+            </div>
+            <div class="about-me-cv-icons">
+              <a href="https://www.pichico.mx" target="_blank">
+                <i class="fas fa-globe-americas"></i>
+              </a>
+              <a href="https://www.github.com/brycatch" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/brycatch/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/pichicomx" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://www.twitter.com/brycatch" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/brycatch" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="services-title">
+        <p>Mis servicios en</p>
+        <h2>Pichico</h2>
+      </div>
+      <div class="services-content">
+        <div class="service">
+          <i class="fab fa-html5"></i>
+          <h3>Desarrollo Web</h3>
+          <p>
+            Sitios a la medida en base a requerimientos.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fab fa-wordpress-simple"></i>
+          <h3>Wordpress</h3>
+          <p>
+            Páginas construidas con este gran CRM.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fas fa-building"></i>
+          <h3>Software</h3>
+          <p>
+            Construcción de soluciones empresariales.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fab fa-google"></i>
+          <h3>Marketing digital</h3>
+          <p>
+            Campañas en Facebook y Google, gestión de presupuestos, anuncios, analytics.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fab fa-facebook"></i>
+          <h3>Branding</h3>
+          <p>
+            Construcción y desarrollo de marcas.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fas fa-cloud"></i>
+          <h3>Soluciones en la nube</h3>
+          <p>
+            Administración de servidores web, bases de datos.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="resume" id="resume">
+      <div class="resume-title">
+        <p>De forma breve</p>
+        <h2>Mi currículm</h2>
+      </div>
+      <div class="resume-content">
+        <div class="resume-school">
+          <h3>Educación</h3>
+          <div class="school-container">
+            <div class="school">
+              <div class="school-indicator"></div>
+              <div class="school-indicator-inclined"></div>
+              <h4>Facultad de ingeniería mecánica y eléctrica</h4>
+              <p class="school-date">
+                2013 - 2018
+              </p>
+              <p class="school-about">
+                Ingeniero administrador de sistemas - titulado.
+              </p>
+              <p class="school-about">
+                Construcción de redes informáticas, desarrollo y planeación de software.
+              </p>
+            </div>
+            <div class="school">
+              <div class="school-indicator"></div>
+              <div class="school-indicator-inclined"></div>
+              <h4>Colegio nacional de educación profesional técnica</h4>
+              <p class="school-date">
+                2010 - 2013
+              </p>
+              <p class="school-about">
+                Profesional técnico en informática - titulado.
+              </p>
+              <p class="school-about">
+                Mantenimiento de equipos de cómputo, programación, servidores.
+              </p>
+            </div>
+            <div class="school">
+              <div class="school-indicator"></div>
+              <div class="school-indicator-inclined"></div>
+              <h4>Platzi</h4>
+              <p class="school-date">
+                Actual
+              </p>
+              <p class="school-about">
+                Autoaprendizaje en temas relacionados a programación, diseño y servidores.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="resume-experience">
+          <h3>Experiencia</h3>
+          <div class="experience-container">
+            <div class="experience">
+              <div class="experience-indicator"></div>
+              <div class="experience-indicator-inclined"></div>
+              <h4>Consultor independiente</h4>
+              <p class="experience-date">
+                Pichico, Soluciones informáticas | Abr 2019 - actual.
+              </p>
+              <p class="experience-about">
+              <ul>
+                <li>Tecnologías: NodeJs, Mongo, AWS, Angular</li>
+                <li>Implementación en servidores Linux.</li>
+                <li>Creación de pruebas unitarias</li>
+              </ul>
+              </p>
+            </div>
+            <div class="experience">
+              <div class="experience-indicator"></div>
+              <div class="experience-indicator-inclined"></div>
+              <h4>Desarrollador jr.</h4>
+              <p class="experience-date">
+                Grupo Piedra Santa | Sep 2018 - Abr 2019
+              </p>
+              <p class="experience-about">
+              <ul>
+                <li>Tecnologías: C#, SQL Server, Windows Server, Angular</li>
+                <li>Colaboración en equipos.</li>
+                <li>Asignación de proyectos en sitio (Corporativo 7-Eleven).</li>
+              </ul>
+              </p>
+            </div>
+            <div class="experience">
+              <div class="experience-indicator"></div>
+              <div class="experience-indicator-inclined"></div>
+              <h4>Analista de planificación y control</h4>
+              <p class="experience-date">
+                Servicios de Agua y Drenaje | Mar 2017 - Sept 2018
+              </p>
+              <p class="experience-about">
+              <ul>
+                <li>Creación de sistema Sigma: proyecto orientado a la entrega de reportes e indicadores del trabajo de cuadrillas y arquitectos.</li>
+                <li>Capacitación y orientación para mas de 30 personas.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="skills-title">
+        <p>Conocimiento sobre algunas herramientas</p>
+        <h2>Habilidades</h2>
+      </div>
+      <div class="skills-content">
+        <div class="skill">
+          <div class="skill-info">
+            <p>HTML</p>
+            <p>85%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar html"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>CSS</p>
+            <p>70%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar css"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>JavaScript</p>
+            <p>75%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar javascript"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>TypeScript</p>
+            <p>75%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar typescript"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>C#</p>
+            <p>80%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar csharp"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>SQL</p>
+            <p>85%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar sql"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>Angular</p>
+            <p>85%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar angular"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>NodeJS</p>
+            <p>80%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar nodejs"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>Análisis</p>
+            <p>95%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar analysis"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <p>Creatividad</p>
+            <p>90%</p>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar creativity"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-title">
+        <p>Algunos proyectos destacados</p>
+        <h2>Mis proyectos</h2>
+      </div>
+      <div class="portfolio-content">
+        <div class="portfolio-element">
+          <div class="portfolio-item">
+            <div class="portfolio-img-container">
+              <img src="./assets/img/sigma.png" alt="Sigma">
+            </div>
+            <div class="portfolio-info">
+              <p class="portfolio-info-title">Sistema SIGMA</p>
+              <p class="portfolio-info-link">Control de incidencias.</p>
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="portfolio-detail-title">Sigma | Privado</p>
+            <p class="portfolio-detail-location">Servicios de agua y drenaje</p>
+            <p class="portfolio-detail-info">
+              Sistema de control de incidencias con alcance metropolitáno para la gerencia de mantenimiento.
+              Controla reportes asignados a cuadrillas metropolitanas, foraneas y contratistas externos.
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-element">
+          <div class="portfolio-item">
+            <div class="portfolio-img-container">
+              <img src="./assets/img/anidoom.jpg" alt="AniDoom">
+            </div>
+            <div class="portfolio-info">
+              <p class="portfolio-info-title">E-commerce</p>
+              <p class="portfolio-info-link">Pagos con tarjeta, envíos nacionales</p>
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="portfolio-detail-title">
+              <a href="https://www.anidoom.com" target="_blank">
+                <i class="fas fa-link"></i>
+                <span>AniDoom | Público</span>
+              </a>
+            </p>
+            <p class="portfolio-detail-location">Pichico</p>
+            <p class="portfolio-detail-info">
+              Tienda en linea con enfoque en productos relacionados con superhéroes, anime y videojuegos.
+              A su vez, es un espacio para que artistas, diseñadores, escultores, entre otros, vendan sus
+              productos dentro de la plataforma.
+            </p>
+            <p class="portfolio-detail-info">
+              Incluye pagos con tarjetas de crédito / débito, tiendas de conveniencia, envíos nacionales.
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-element">
+          <div class="portfolio-item">
+            <div class="portfolio-img-container">
+              <img src="./assets/img/zuse.png" alt="Zuse">
+            </div>
+            <div class="portfolio-info">
+              <p class="portfolio-info-title">E-commerce</p>
+              <p class="portfolio-info-link">Venta de hardware</p>
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="portfolio-detail-title">
+              <span>Zuse | Público | En desarrollo</span>
+            </p>
+            <p class="portfolio-detail-location">Pichico</p>
+            <p class="portfolio-detail-info">
+              E-commerce enfocado en la venta de hardware de alto desempeño. Construcción de equipos pre-ensamblados y venta de periféricos y accesorios para computadoras
+            </p>
+            <p class="portfolio-detail-info">
+              Proyecto actualmente en desarrollo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="projects" id="projects">
+      <div class="projects-title">
+        <p>Cuando tengo tiempo libre</p>
+        <h2>Proyectos personales</h2>
+      </div>
+      <div class="projects-content">
+        <div class="portfolio-item">
+          <div class="portfolio-img-container">
+            <img src="./assets/img/square.jpg" alt="Proyecto">
+          </div>
+          <div class="portfolio-info">
+            <p class="portfolio-info-title">Contenido</p>
+            <p class="portfolio-info-link">Contenido</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section class="blog" id="blog">
+      <div class="blog-title">
+        <p>Información dentro de Pichico</p>
+        <h2>Blog - Pichico</h2>
+      </div>
+      <div class="blog-content">
+        <article class="blog-item">
+          <div class="blog-item-img">
+            <img src="./assets/img/square.jpg" alt="Proyecto">
+            <span>Contenido</span>
+          </div>
+          <h3>Título nota</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, in nulla, possimus
+            cupiditate.
+          </p>
+        </article>
+      </div>
+    </section> -->
+    <section class="contact" id="contact">
+      <div class="contact-title">
+        <p>No dudes en enviarme un mensaje</p>
+        <h2>Información de contacto</h2>
+      </div>
+      <div class="contact-content">
+        <div class="contact-icons">
+          <a href="https://www.pichico.mx" target="_blank">
+            <i class="fas fa-globe-americas"></i>
+            <span>Pichico</span>
+          </a>
+          <a href="https://www.github.com/brycatch" target="_blank">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/brycatch/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://www.facebook.com/pichicomx" target="_blank">
+            <i class="fab fa-facebook"></i>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.twitter.com/brycatch" target="_blank">
+            <i class="fab fa-twitter"></i>
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.instagram.com/brycatch" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+        </div>
+        <div class="contact-info">
+          <p class="contact-message">
+            Siempre estoy buscando proyectos que pongan a prueba mi aprendizaje a lo largo de los años.
+            Siéntete libre de platicarme tus ideas.
+          </p>
+          <div class="contact-info-content">
+            <div class="contact-info-element">
+              <div class="contact-icon-container">
+                <i class="fas fa-user-circle"></i>
+              </div>
+              <div class="contact-info-container">
+                <p class="contact-info-title">
+                  Nombre
+                </p>
+                <p class="contact-info-message">
+                  Alejandro Sánchez (@brycatch)
+                </p>
+              </div>
+            </div>
+            <div class="contact-info-element">
+              <div class="contact-icon-container">
+                <i class="fas fa-location-arrow"></i>
+              </div>
+              <div class="contact-info-container">
+                <p class="contact-info-title">
+                  Ubicación
+                </p>
+                <p class="contact-info-message">
+                  Monterrey, México
+                </p>
+              </div>
+            </div>
+            <div class="contact-info-element">
+              <div class="contact-icon-container">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-info-container">
+                <p class="contact-info-title">
+                  Teléfono
+                </p>
+                <p class="contact-info-message">
+                  +52 8121930524
+                </p>
+              </div>
+            </div>
+            <div class="contact-info-element">
+              <div class="contact-icon-container">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-info-container">
+                <p class="contact-info-title">
+                  Email
+                </p>
+                <p class="contact-info-message">
+                  asanchez@pichico.mx
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
